@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="images/Favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="circle"></div>
+
+    <div id="main2">
+        <div id="header">
+            <div id="container">
+                <nav>
+                    <div id="logo">
+                        <a href="/"><img src="images/logo.png" alt="Logo"></a>
+                    </div>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                    </ul>
+                    <div id="socials">
+                        <a href="https://www.behance.net/vijendrapandey?tracking_source=search_users|vijendra%20pandey" target="_blank"><img src="images/Behance.png" alt="Behance"></a>
+                        <a href="https://github.com/VijendraPandey" target="_blank"><img src="images/Github.png" alt="Github"></a>
+                        <a href="https://www.linkedin.com/in/vijendra-kumar-pandey/" target="_blank"><img src="images/Linkedin.png" alt="Linkedin"></a>
+                    </div>
+                </nav>
+            </div>  
+        </div>
+    
+        <!--About Page-->
+    
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/about.jpg" alt="" id="about-img">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a self learnt Front-end Developer with knowledge of UI/UX Designing.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interefaces</li>
+                                <li><span>Web Development</span><br>Web app development</li>
+                                <li><span>DSA</span><br>Data structures</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designed an UI/UX for a waste management startup.</li>
+                                <li><span>Design Rush</span><br>Finalist of UI/UX challenge Design Rush organized by IIT BHU</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2021-25</span><br>B.Tech in Computer Science at KIET Group of Institutions.</li>
+                                <li><span>2020</span><br>Higher Secondary</li>
+                                <li><span>2018</span><br>Senior Secondary</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
